@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --branco: #ffffff;
+    --amarelo-ouro: #FDC807;
+    --preto-100: #000000;
+    --preto-90: #202226;
+}
+
+#container{
+    background-color: var(--preto-100);
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+
+#banner{
+    background-image: url(imagens/header.png);
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#conteudo_secao01{
+    color: var(--branco);
+    width:40% ;
+    margin-left: 200px;
+}
+
+#conteudo_secao01 h1{
+    font-size: 40px;
+}
+
+#conteudo_secao01 p:nth-of-type(1){
+    font-size: 25px;
+}
+
+#conteudo_secao01 p:nth-of-type(2){
+    font-size: 20px;
+}
+
+#conteudo_secao01 input{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    width: 360px;
+}
+
+#btn_baixar{
+    background-color: var(--amarelo-ouro);
+    width: 340px;
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--preto-100);
+    margin-top: 30px;
+}
+.secoes{
+    display: flex;
+    color: var(--branco);
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secoes div{
+    width: 700px;
+}
+
+.secoes p{
+    font-size: 20px;
+}
+.secao_clara{
+    background-color: var(--preto-90);
+}
+
+.secao_escura{
+    background-color: var(--preto-100);
+}
+.secoes span{
+    color: var(--amarelo-ouro);
+}
+
+#autora{
+    width: 300px;
+    border-radius: 100%;
+}
+
+
+
